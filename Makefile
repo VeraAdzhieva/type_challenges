@@ -1,2 +1,2 @@
 typing:
-	mypy type_challenge/
+	docker compose run --rm type_challenge poetry run mypy .
